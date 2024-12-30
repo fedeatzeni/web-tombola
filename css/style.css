@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+.bg-magenta {
+    background-color: magenta;
+    min-height: 100px;
+}
+
+body {
+    font-family: serif;
+    background-color: #17a494;
+}
+
+h1 {
+    font-family: "Gochi Hand", serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    flex-basis: 70%;
+}
+
+.n {
+    flex-basis: 10%;
+
+}
+
+.n span {
+    display: inline-block;
+    width: 55px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 999px;
+    padding: 10px 0;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+
+.generator {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.generator h2 {
+    margin-bottom: 20px;
+}
+
+.numext {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.extraction {
+    display: inline-block;
+    width: 55px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.orange {
+    background-color: #f4a000;
+}
+
+.red {
+    background-color: #844263;
+}
